@@ -1,0 +1,18 @@
+{
+  "Print to console": {
+    "scope": "javascript,typescript",
+    "prefix": "log",
+    "body": [
+      "console.log({$1});",
+      "$2"
+    ],
+    "description": "Log output to console"
+  },
+  "throw log error": {
+    "prefix": "tl",
+    "body": [
+      "throw new Error(JSON.stringify({$0}, null, 2))"
+    ],
+    "description": "Throws a log error"
+  }
+}
