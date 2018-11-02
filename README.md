@@ -8,8 +8,8 @@ Just a bunch of snippets added by my self
 
 | Prefix  | Method                                              |
 | ------: | --------------------------------------------------- |
-| `olog→`  | `console.log({ });`                   |
-| `tl→`  | `throw new Error(JSON.stringify({ }, null, 2));`                   |
+|`olog →`| `console.log({ });`                               |
+|`tl →`  | `throw new Error(JSON.stringify({ }, null, 2));`    |
 
 ## Release Notes
 
