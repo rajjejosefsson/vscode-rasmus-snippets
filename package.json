@@ -1,12 +1,12 @@
 {
-    "name": "rasmus-snippets",
+    "name": "vscode-rasmus-snippets",
     "displayName": "rasmus-snippets",
-    "description": "",
-    "version": "0.0.8",
+    "description": "snippets for vscode",
+    "version": "0.0.9",
     "publisher": "rasmusjosefsson",
     "repository": {
         "type": "git",
-        "url": "https://github.com/rajjejosefsson/rasmus-snippets.git"
+        "url": "https://github.com/rajjejosefsson/vscode-rasmus-snippets.git"
     },
     "engines": {
         "vscode": "^1.28.0"
