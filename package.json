@@ -2,8 +2,12 @@
     "name": "rasmus-snippets",
     "displayName": "rasmus-snippets",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.0.8",
     "publisher": "rasmusjosefsson",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rajjejosefsson/rasmus-snippets.git"
+    },
     "engines": {
         "vscode": "^1.28.0"
     },
@@ -13,7 +17,19 @@
     "contributes": {
         "snippets": [
             {
-                "language": "",
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescriptreact",
                 "path": "./snippets/snippets.json"
             }
         ]
